@@ -2,11 +2,13 @@
 
 namespace dictionary_of_words
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      var wordsAndDefinitions = new Dictionary<string, string>();
+      wordsAndDefinitions.Add("Awesome", "The feeling of students when they are learning C#");
+
     }
+  }
 }
